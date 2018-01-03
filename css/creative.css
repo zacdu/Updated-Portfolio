@@ -193,13 +193,12 @@ header {
 
 header .header-content {
   position: relative;
-  text-align: center;
+  text-align: left;
   padding: 100px 15px 100px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
@@ -447,11 +446,23 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+/* My Additions */
+#subtextHeading{
+  font-weight: 100;
+}
 
 /* Animating nameText */
 .hackView {
   position: relative;
   width: 100%;
-  text-align: center;
+  text-align: left;
+  display: inline;
+}
+
+.bottomHackView{
+  opacity: .2;
+  block-size: 20%;
+  position: right;
+  text-align: right;
   display: inline;
 }

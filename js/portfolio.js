@@ -46,13 +46,39 @@
 //     }, 1000);
 // });
 
+function createText() {
+    var subtitle = new TypeIt("#secondNameText", {
+        strings: "",
+        speed: 100,
+        breakLines: false,
+        lifeLike: true,
+        autoStart: false
+    });
+    subtitle.type("..and I like to write")
+}
 
-new TypeIt('#example1', {
-    strings: ["Hello! I'm Zac", "I also like to write and make music."],
-    speed: 150,
+var title = new TypeIt('#nameHeader', {
+    strings: ["Hello"],
+    speed: 90,
     breakLines: false,
-    loop: true,
-    loopDelay: 1000,
-    autoStart: true,
-    lifeLike: true
+    lifeLike: true,
 });
+title.pause(300);
+title.type("! I am Zac,");
+title.pause(2000);
+title.break();
+title.pause(500);
+title.type("and I like to develop web & mobile apps.");
+title.pause(200);
+title.break();
+title.break();
+title.break();
+title.pause(2500);
+title.options({speed: 80});
+title.type("<h1 class='bottomHackView'>...I also write and make music.</h1>");
+
+
+
+
+
+
