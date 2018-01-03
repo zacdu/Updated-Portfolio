@@ -158,17 +158,12 @@ header {
   -o-background-size: cover;
   background-position: center;
   /* background-image: url('../img/header.jpg'); */
-  background: linear-gradient(177deg, #44A08D, #093637);
+  background: linear-gradient(177deg, #EEFBAE, #44A08D, #093637);
   background-size: 300% 300%;
 
-  -webkit-animation: headerAnimation 25s ease infinite;
-  -moz-animation: headerAnimation 25s ease infinite;
-  animation: headerAnimation 25s ease infinite;
-
-  /* background: #0f0c29;   fallback for old browsers 
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ Edge, 
-  */
+  -webkit-animation: headerAnimation 35s ease-in-out infinite;
+  -moz-animation: headerAnimation 35s ease-in-out infinite;
+  animation: headerAnimation 35s ease-in-out infinite;
 
   text-align: center;
   color: white;
