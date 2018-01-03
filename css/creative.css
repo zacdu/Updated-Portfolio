@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-    font-family: 'Asap', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 hr {
   border-color: #F05F40;
@@ -35,7 +35,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Flamenco', cursive;
+  font-family: 'VT323', monospace;
+  font-weight: 300;
 }
 p {
   font-size: 16px;
@@ -156,8 +157,8 @@ header {
   -o-background-size: cover;
   background-position: center;
   /* background-image: url('../img/header.jpg'); */
-  background: linear-gradient(177deg, #77A1D3, #79CBCA);
-  background-size: 600% 600%;
+  background: linear-gradient(177deg, #44A08D, #093637);
+  background-size: 300% 300%;
 
   -webkit-animation: headerAnimation 25s ease infinite;
   -moz-animation: headerAnimation 25s ease infinite;
@@ -444,3 +445,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+
+/* Animating nameText */
