@@ -255,6 +255,8 @@ header .header-content .header-content-inner p {
   display: block;
   max-width: 650px;
   margin: 0 auto;
+  cursor: default;
+  user-select: none;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
@@ -444,6 +446,11 @@ body {
 }
 
 /* My Additions */
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
 #subtextHeading{
   font-weight: 100;
 }
