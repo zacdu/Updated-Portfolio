@@ -449,3 +449,9 @@ body {
 
 
 /* Animating nameText */
+.hackView {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
